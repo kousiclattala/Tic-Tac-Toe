@@ -81,6 +81,18 @@ export class AppComponent {
       this.itemArray[2] === this.itemArray[6]
     ) {
       this.winMessage = `${this.itemArray[2]} is won`;
+    } else if (
+      this.itemArray[0] !== 'empty' &&
+      this.itemArray[1] !== 'empty' &&
+      this.itemArray[2] !== 'empty' &&
+      this.itemArray[3] !== 'empty' &&
+      this.itemArray[4] !== 'empty' &&
+      this.itemArray[5] !== 'empty' &&
+      this.itemArray[6] !== 'empty' &&
+      this.itemArray[7] !== 'empty' &&
+      this.itemArray[8] !== 'empty'
+    ) {
+      this.winMessage = 'No more moves, Kindly reload the game!!';
     }
   };
 
