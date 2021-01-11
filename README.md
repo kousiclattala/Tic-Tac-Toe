@@ -7,6 +7,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 This is a Simple Tic-Tac-Toe Game. Where two users compete themselves and one will be the winner.
 
 - Initial Game Looks like this
+  - Here, Pen icon is called empty field. One player will get *cross*, another player will get *circle*.
   ![Initial Game](images/main-image.jpg)
 
 - After Player Won the Game
